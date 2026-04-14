@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Nunito:wght@400;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-lora: "Lora", serif;
+  --font-nunito: "Nunito", sans-serif;
+  
+  --color-bg: #0b1120;
+  --color-surface: #131e32;
+  --color-card: #1a2740;
+  --color-border: #243352;
+  --color-gold: #f5c842;
+  --color-gold-dim: #b8951e;
+}
+
+body {
+  @apply bg-bg text-slate-200 font-nunito;
+}
